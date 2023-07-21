@@ -93,6 +93,8 @@ $ export PULUMI_CONFIG_PASSPHRASE="" # Set passphrase env to `""`. This passphra
 $ pulumi stack select default -c # Select the `default` stack.
 ```
 
+You may need to run `npm install pulumi` before next step.
+
 ## Create the EKS Cluster via Pulumi (may take more than **_10_** minutes)
 
 ```bash
